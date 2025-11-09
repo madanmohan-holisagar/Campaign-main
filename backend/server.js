@@ -102,5 +102,10 @@ app.get("*", (req, res) => {
 });
 
 // -------- Start Server --------
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+(async () => {
+  const PORT = (await getAvailablePort(5000, 5100)) || 5000;
+  app.listen(PORT, () =>
+    console.log(`🚀 Server running on http://localhost:${PORT}`)
+  );
+})();
+
