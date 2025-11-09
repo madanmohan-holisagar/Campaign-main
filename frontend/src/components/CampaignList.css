@@ -1,0 +1,58 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.campaign-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  transition: 0.3s;
+}
+
+.campaign-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.campaign-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.campaign-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.campaign-card select {
+  padding: 6px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.delete-btn {
+  background: #ff4d6d;
+  border: none;
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.delete-btn:hover {
+  background: #e63950;
+}

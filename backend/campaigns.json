@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1762666939388,
+    "campaignName": "a",
+    "clientName": "c",
+    "startDate": "2025-11-03",
+    "status": "Paused"
+  },
+  {
+    "id": 1762666956368,
+    "campaignName": "c",
+    "clientName": "a",
+    "startDate": "2025-11-01",
+    "status": "Active"
+  },
+  {
+    "id": 1762679851048,
+    "campaignName": "ksdfs",
+    "clientName": "dfdfd",
+    "startDate": "2025-10-30",
+    "status": "Active"
+  }
+]

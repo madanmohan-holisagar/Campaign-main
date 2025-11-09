@@ -1,0 +1,32 @@
+.campaign-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.campaign-form input,
+.campaign-form select {
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  flex: 1 1 220px;
+  font-size: 0.95rem;
+}
+
+.campaign-form button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #f12711, #f5af19);
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.campaign-form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
