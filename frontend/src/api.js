@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Use environment variable in production, fallback to localhost for dev
-const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_BASE = process.env.REACT_APP_API_URL;
 const API = `${API_BASE}/api/campaigns`;
 
 export const getCampaigns = () => axios.get(API);
